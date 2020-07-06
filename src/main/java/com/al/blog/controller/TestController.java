@@ -13,8 +13,8 @@ public class TestController {
 
     public ResponseResult helloWorld() {
         System.out.println("hello world");
-        ResponseResult responseResult = new ResponseResult(ResponseState.SUCCESS);
-        responseResult.setData("hello");
+        ResponseResult responseResult = new ResponseResult(ResponseState.SUCCESS).setData("hello");
+        
 
         return responseResult;
     }

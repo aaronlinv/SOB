@@ -12,7 +12,7 @@ public class ResponseResult {
         this.message = responseState.getMessage();
     }
 
-    public static ResponseResult SUCCESS() {
+    public  ResponseResult SUCCESS() {
         return new ResponseResult(ResponseState.SUCCESS);
     }
 
@@ -48,7 +48,8 @@ public class ResponseResult {
         return data;
     }
 
-    public void setData(Object data) {
+    public ResponseResult setData(Object data) {
         this.data = data;
+        return this;
     }
 }
