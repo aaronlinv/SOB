@@ -1,18 +1,21 @@
 package com.al.blog.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import com.al.blog.pojo.User;
+import org.springframework.web.bind.annotation.*;
 
-@Controller
+@RestController
+@RequestMapping("/test")
 public class TestController {
-    @RequestMapping(value = "/hello",method = RequestMethod.GET)
-    @ResponseBody
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+
     public String helloWorld() {
         System.out.println("hello world");
         return "hello";
-    }   
-
+    }
+    
+    @GetMapping("test-json")
+    public User testJson() {
+        User user = new User("al", 20, "male");
+        return user;
+    }
 }
