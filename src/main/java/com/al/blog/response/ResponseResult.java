@@ -12,6 +12,14 @@ public class ResponseResult {
         this.message = responseState.getMessage();
     }
 
+    public static ResponseResult SUCCESS() {
+        return new ResponseResult(ResponseState.SUCCESS);
+    }
+
+    public static ResponseResult FAILED() {
+        return new ResponseResult(ResponseState.FAILED);
+    }
+
     public boolean isSuccess() {
         return success;
     }
