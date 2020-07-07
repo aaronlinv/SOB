@@ -75,8 +75,8 @@ public class UserApi {
      * @param sobUser
      * @return
      */
-    @PutMapping("/password")
-    public ResponseResult updatePassword(@RequestBody SobUser sobUser) {
+    @PutMapping("/password/{userId}")
+    public ResponseResult updatePassword(@PathVariable("userId") String userId, @RequestBody SobUser sobUser) {
         return null;
     }
 
@@ -93,11 +93,12 @@ public class UserApi {
 
     /**
      * 修改用户
-     * @param sobUser 
+     *
+     * @param sobUser
      * @return
      */
-    @PutMapping
-    public ResponseResult updateUserInfo(@RequestBody SobUser sobUser) {
+    @PutMapping("/{userId}")
+    public ResponseResult updateUserInfo(@PathVariable String userId,@RequestBody SobUser sobUser) {
         return null;
     }
 
