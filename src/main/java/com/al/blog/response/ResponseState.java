@@ -3,7 +3,10 @@ package com.al.blog.response;
 
 public enum ResponseState {
     SUCCESS(true,20000,"操作成功"),
-    FAILED(false,40000,"操作失败");
+    FAILED(false,40000,"操作失败"),
+    LOGIN_SUCCESS(true,20000,"操作失败"),
+    LOGIN_FAILED(false,40000,"操作失败"),
+    GET_RESOURCE_FAILED(false,49999,"操作失败");
 
     ResponseState(boolean success,int code,String message) {
         this.success=success;
