@@ -3,3 +3,28 @@
 [2020/07/07-10:07:59] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 5.862 seconds (JVM running for 6.949)
 [2020/07/07-10:08:22] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.TestController] : user name= >Aaron
 [2020/07/07-10:08:22] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.TestController] : user password= >123456
+[2020/07/07-10:15:32] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 23240 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-10:15:32] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-10:15:39] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 7.57 seconds (JVM running for 8.872)
+[2020/07/07-10:18:09] [http-nio-80-exec-3] [INFO ] [com.al.blog.controller.user.UserApi] : username == > null
+[2020/07/07-10:18:09] [http-nio-80-exec-3] [INFO ] [com.al.blog.controller.user.UserApi] : password == > 123456
+[2020/07/07-10:18:09] [http-nio-80-exec-3] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-10:19:24] [http-nio-80-exec-6] [INFO ] [com.al.blog.controller.user.UserApi] : username == > null
+[2020/07/07-10:19:24] [http-nio-80-exec-6] [INFO ] [com.al.blog.controller.user.UserApi] : password == > 123456
+[2020/07/07-10:19:24] [http-nio-80-exec-6] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-10:19:40] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 18700 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-10:19:40] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-10:19:45] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 6.195 seconds (JVM running for 7.388)
+[2020/07/07-10:19:48] [http-nio-80-exec-1] [INFO ] [com.al.blog.controller.user.UserApi] : username == > null
+[2020/07/07-10:19:48] [http-nio-80-exec-1] [INFO ] [com.al.blog.controller.user.UserApi] : password == > 123456
+[2020/07/07-10:19:48] [http-nio-80-exec-1] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-10:25:07] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 12284 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-10:25:07] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-10:25:12] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 6.216 seconds (JVM running for 7.495)
+[2020/07/07-10:26:37] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.user.UserApi] : username == > Aaron
+[2020/07/07-10:26:37] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.user.UserApi] : password == > 123456
+[2020/07/07-10:26:37] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-10:50:17] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 26240 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-10:50:17] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-10:50:24] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 7.276 seconds (JVM running for 8.784)
+[2020/07/07-10:50:45] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
