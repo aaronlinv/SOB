@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/admin/portal")
-public class CommentPortal {
+public class CommentPortalApi {
     @PostMapping
     public ResponseResult postComment(@RequestBody Comment comment) {
         return null;
@@ -15,6 +15,11 @@ public class CommentPortal {
 
     @DeleteMapping("/{looperId}")
     public ResponseResult delComment(@PathVariable String commentId) {
+        return null;
+    }
+
+    @GetMapping("/list/{articleId}")
+    public ResponseResult listComments(@PathVariable String articleId) {
         return null;
     }
 }
