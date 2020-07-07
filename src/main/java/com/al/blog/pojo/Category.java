@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table ( name ="tb_categories" )
-public class Categories {
+public class Category {
 
   	@Id
 	private String id;
