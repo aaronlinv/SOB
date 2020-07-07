@@ -28,3 +28,16 @@
 [2020/07/07-10:50:17] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
 [2020/07/07-10:50:24] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 7.276 seconds (JVM running for 8.784)
 [2020/07/07-10:50:45] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-11:03:56] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 31212 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-11:03:56] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-11:05:00] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 46268 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-11:05:00] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-11:07:02] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 25384 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-11:07:02] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-11:07:08] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 6.527 seconds (JVM running for 7.639)
+[2020/07/07-11:07:57] [http-nio-80-exec-1] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 13159420395
+[2020/07/07-11:08:56] [http-nio-80-exec-9] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-11:08:58] [http-nio-80-exec-10] [INFO ] [com.al.blog.controller.user.UserApi] : email == > 1546848781@qq.com
+[2020/07/07-11:09:42] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 16820 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-11:09:42] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-11:09:49] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 8.033 seconds (JVM running for 9.166)
