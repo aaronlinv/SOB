@@ -3,14 +3,13 @@ package com.al.blog.controller;
 import com.al.blog.pojo.TestUser;
 import com.al.blog.response.ResponseResult;
 import com.al.blog.response.ResponseState;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
-
+@Slf4j
 @RestController
 @RequestMapping("/test")
 public class TestController {
-    public static final Logger log= LoggerFactory.getLogger(TestController.class); 
+     
     
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
 
