@@ -1,0 +1,5 @@
+[2020/07/07-10:07:54] [main] [INFO ] [com.al.blog.BlogApplication] : Starting BlogApplication on DESKTOP-JNQQC7L with PID 9776 (C:\LearnJava\SobBlogSystemDemo\target\classes started by Aaron in C:\LearnJava\SobBlogSystemDemo)
+[2020/07/07-10:07:54] [main] [INFO ] [com.al.blog.BlogApplication] : No active profile set, falling back to default profiles: default
+[2020/07/07-10:07:59] [main] [INFO ] [com.al.blog.BlogApplication] : Started BlogApplication in 5.862 seconds (JVM running for 6.949)
+[2020/07/07-10:08:22] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.TestController] : user name= >Aaron
+[2020/07/07-10:08:22] [http-nio-80-exec-2] [INFO ] [com.al.blog.controller.TestController] : user password= >123456

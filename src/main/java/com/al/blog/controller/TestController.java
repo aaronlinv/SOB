@@ -3,15 +3,19 @@ package com.al.blog.controller;
 import com.al.blog.pojo.TestUser;
 import com.al.blog.response.ResponseResult;
 import com.al.blog.response.ResponseState;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/test")
 public class TestController {
+    public static final Logger log= LoggerFactory.getLogger(TestController.class); 
+    
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
 
     public ResponseResult helloWorld() {
-        System.out.println("hello world");
+        log.info("hello world");
         ResponseResult responseResult = new ResponseResult(ResponseState.SUCCESS).setData("hello");
 
 
@@ -26,8 +30,8 @@ public class TestController {
 
     @PostMapping("/test-login")
     public ResponseResult testLogin(@RequestBody TestUser user) {
-        System.out.println("user name= >" + user.getUserName());
-        System.out.println("user password= >" + user.getPassword());
+        log.info("user name= >" + user.getUserName());
+        log.info("user password= >" + user.getPassword());
         
         
         return ResponseResult.SUCCESS("登录成功").setData(user);
