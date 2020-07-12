@@ -1,6 +1,8 @@
 package com.al.blog.utils;
 
 public interface Constant {
+    int DEFAULT_SIZE = 30;
+    
     interface  User{
         String ROLE_ADMIN = "role_admin";
         String DEFAULT_AVATAR = "https://cdn.sunofbeaches.com/images/default_avatar.png";

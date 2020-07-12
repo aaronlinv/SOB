@@ -5,9 +5,14 @@ import com.al.blog.pojo.Label;
 import com.al.blog.pojo.TestUser;
 import com.al.blog.response.ResponseResult;
 import com.al.blog.response.ResponseState;
+import com.al.blog.utils.Constant;
 import com.al.blog.utils.SnowflakeIdWorker;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 
 import javax.transaction.Transactional;
@@ -99,5 +104,25 @@ public class TestController {
             return ResponseResult.FAILED("标签不存在");
         }
         return ResponseResult.SUCCESS("查询成功").setData(dbLabel);
+    }
+
+    @GetMapping("/label/list/{page}/{size}")
+    public ResponseResult getLabelList(@PathVariable("page") int page,
+                                       @PathVariable("size") int size) {
+        if (page < 1) {
+            page = 1;
+        }
+        if (size <= 0) {
+            size = Constant.DEFAULT_SIZE;
+        }
+        
+        // 排序
+        Sort sort = new Sort(Sort.Direction.DESC,"createTime");
+        // spring domain
+        // page 从0开始
+        Pageable pageable = PageRequest.of(page - 1, size,sort);
+        Page<Label> result = labelDao.findAll(pageable);
+        
+        return ResponseResult.SUCCESS("获取成功").setData(result);
     }
 }
